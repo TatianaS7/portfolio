@@ -1,0 +1,24 @@
+{
+  "name": "code-portfolio",
+  "scripts": {
+    "client-dev": "parcel client/index.html --open",
+    "build": "parcel build client/index.html",
+    "start": "concurrently \"python3 server/app.py\" \"PORT=3000 npm run client-dev\""
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "axios": "^1.7.3",
+    "concurrently": "^8.2.2",
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-ionicons": "^1.5.7",
+    "react-router": "^7.1.5"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^19.0.3",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  }
+}
