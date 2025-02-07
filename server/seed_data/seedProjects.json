@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "title": "My Art Portfolio",
+        "description": "The very first coding project to display my art.",
+        "technologies": [
+            {"name": "HTML", "image": "https://www.xchangetraining.co.uk/images/html-css.png"},
+            {"name": "CSS", "image": "https://ultimatecourses.com/assets/category/css-fcba6b473cb1125595dc28163be24eb673907258b5f6f6c82967a0587a9df20c.svg"},
+            {"name": "Bootstrap", "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"}
+        ],
+        "image": "https://mv-open-swe-9.github.io/html-project-TatianaS7/images/PortfolioScreenshot.png",
+        "deployed_link": "https://tanxtdr.com/",
+        "github_link": "https://github.com/TatianaS7/tatianas7.github.io",
+        "created_at": "2023-07-01T00:00:00.000Z",
+        "updated_at": "2023-07-01T00:00:00.000Z"
+    },
+    {
+        "id": 2,
+        "title": "Cashier Game",
+        "description": "A cashier simulation where you have to punch in the order within 30 seconds to get a tip based on accuracy.",
+        "technologies": [
+            {"name": "Python", "image": "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"},
+            {"name": "Flask", "image": "https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png"},
+            {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"}
+        ],
+        "image": "https://mv-open-swe-9.github.io/html-project-TatianaS7/images/Game%20Screenshot.png",
+        "deployed_link": "https://cashiergame.onrender.com/",
+        "github_link": "https://github.com/TatianaS7/cashier-POS-game",
+        "created_at": "2024-04-01T00:00:00.000Z",
+        "updated_at": "2024-04-01T00:00:00.000Z"
+    },
+    {
+        "id": 3,
+        "title": "Password Manager",
+        "description": "Fullstack CRUD application that manages user password accounts, encrypts sensitive information before storing it in a database, and generates passwords for users.",
+        "technologies": [
+            {"name": "Python", "image": "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"},
+            {"name": "Flask", "image": "https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png"},
+            {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"},
+            {"name": "SQLAlchemy", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SQLAlchemy.svg/220px-SQLAlchemy.svg.png"},
+            {"name": "Auth0", "image": "https://static-00.iconduck.com/assets.00/auth0-icon-1832x2048-ewzjrdwk.png"}
+        ],
+        "image": "https://mv-open-swe-9.github.io/html-project-TatianaS7/images/password-manager-screenshot.png",
+        "deployed_link": "https://passwordmanager-khal.onrender.com/",
+        "github_link": "https://github.com/Multiverse-Backend/password-manager",
+        "created_at": "2024-10-01T00:00:00.000Z",
+        "updated_at": "2024-10-01T00:00:00.000Z"
+    },
+    {
+        "id": 4,
+        "title": "Chroma - Group Project",
+        "description": "An image color picker and palette generator that allows users to save their palettes and colors.",
+        "technologies": [
+            {"name": "Python", "image": "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"},
+            {"name": "Flask", "image": "https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png"},
+            {"name": "TypeScript", "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"},
+            {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"},
+            {"name": "SQLAlchemy", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SQLAlchemy.svg/220px-SQLAlchemy.svg.png"},
+            {"name": "Auth0", "image": "https://static-00.iconduck.com/assets.00/auth0-icon-1832x2048-ewzjrdwk.png"}
+        ],
+        "image": "https://private-user-images.githubusercontent.com/112902224/410573594-38422b54-0a59-4c41-b36b-b6af591c075b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg4ODQwNzEsIm5iZiI6MTczODg4Mzc3MSwicGF0aCI6Ii8xMTI5MDIyMjQvNDEwNTczNTk0LTM4NDIyYjU0LTBhNTktNGM0MS1iMzZiLWI2YWY1OTFjMDc1Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIwNlQyMzE2MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01MWE2Y2I3NjA3MjVmZDNjZGFkM2Q3ZDE4Mjc0NzVkN2M5ZjYyY2FkMmI3NTdhNmJmYWI1ZWIyODQ3NjYxZGZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.kqtfE0a28HPUOkimmxZzqBXQM9MbbJcscxg2lWsE7-8",
+        "deployed_link": "https://chroma-client.onrender.com/",
+        "github_link": "https://github.com/natali-a-lvarez/Chroma",
+        "created_at": "2024-08-01T00:00:00.000Z",
+        "updated_at": "2024-08-01T00:00:00.000Z"
+    },
+    {
+        "id": 5,
+        "title": "Pokeverse API",
+        "description": "A frontend application that fetches data from the PokeAPI and displays it in a user-friendly interface.",
+        "technologies": [
+            {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"},
+            {"name": "Cypress", "image": "https://static-00.iconduck.com/assets.00/brand-cypress-icon-512x512-td81socq.png"}
+        ],
+        "image": "https://mv-open-swe-9.github.io/html-project-TatianaS7/images/pokeverse-api.png",
+        "deployed_link": null,
+        "github_link": "https://github.com/TatianaS7/pokemon-api",
+        "created_at": "2024-10-01T00:00:00.000Z",
+        "updated_at": "2024-10-01T00:00:00.000Z"
+    },
+    {
+        "id": 6,
+        "title": "TNP Arcade - Group Project",
+        "description": "An online arcade that allows users to choose from 3 games: Fidget Popper, Quick Draw and Memory Game",
+        "technologies": [
+            {"name": "Next.js", "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"},
+            {"name": "Tailwind CSS", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"}
+        ],
+        "image": "https://mv-open-swe-9.github.io/html-project-TatianaS7/images/tnp-arcade.png",
+        "deployed_link": null,
+        "github_link": "https://github.com/Multiverse-Frontend/tnp-arcade",
+        "created_at": "2024-10-01T00:00:00.000Z",
+        "updated_at": "2024-10-01T00:00:00.000Z"
+    }
+]
