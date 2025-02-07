@@ -1,4 +1,5 @@
 import React from "react";
+import GlitchText from "./GlitchText";
 
 export default function Home() {
   return (
@@ -7,20 +8,23 @@ export default function Home() {
         <div style={styles.flexContainer}>
           <div>
             <p style={styles.hello}>Hello</p>
-            <h1 style={styles.greeting}>
+            {/* <h1 style={styles.greeting}>
               I'm a{" "}
               <span style={styles.softwareEngineer}>
                 Software
                 <br />
                 Engineer
               </span>
-            </h1>
+            </h1> */}
+            <GlitchText text="I'm a Software Engineer" />
           </div>
         </div>
       </div>
 
       <p style={{ textAlign: "center", fontSize: "18pt", fontWeight: "bold" }}>
-        <i>"I didnt come this far to only come this far." <br /> - Tom Brady</i>
+        <i>
+          "I didnt come this far to only come this far." <br /> - Tom Brady
+        </i>
       </p>
     </>
   );
