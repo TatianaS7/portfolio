@@ -1,3 +1,3 @@
-const apiURL = 'http://127.0.0.1:3000'
+const apiURL = 'https://code-portfolio.onrender.com'
 
 export default apiURL;
