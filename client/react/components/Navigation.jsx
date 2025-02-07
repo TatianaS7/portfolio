@@ -13,13 +13,13 @@ export default function Navigation() {
 
             <div>
                 <Button variant="primary" style={styles.navbarBtn}>
-                <Link to="/About" style={{ color: 'inherit', textDecoration: 'none' }}>About</Link>
+                <Link to="/about" style={{ color: 'inherit', textDecoration: 'none' }}>About</Link>
                 </Button>
                 <Button variant="primary" style={styles.navbarBtn}>
-                <Link to="/Experience" style={{ color: 'inherit', textDecoration: 'none' }}>Experience</Link>
+                <Link to="/experience" style={{ color: 'inherit', textDecoration: 'none' }}>Experience</Link>
                 </Button>
                 <Button variant="primary" style={styles.navbarBtn}>
-                <Link to="/Projects" style={{ color: 'inherit', textDecoration: 'none' }}>Projects</Link>
+                <Link to="/projects" style={{ color: 'inherit', textDecoration: 'none' }}>Projects</Link>
                 </Button>
             </div>
         </div>
