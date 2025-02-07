@@ -74,22 +74,23 @@ const styles = {
         fontWeight: 800,
         textAlign: "center",
         fontFamily: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+        color: "black",
     },
     softwareEngineer: {
         color: "black",
         textDecoration: "solid underline darkgreen",
     },
     binaryText: {
-        fontSize: "60pt",
+        fontSize: "55pt",
         textTransform: "uppercase",
-        fontWeight: 800,
+        fontWeight: 100,
         textAlign: "center",
-        fontFamily: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
-        color: "black",
+        // fontFamily: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+        color: "darkgreen",
         whiteSpace: "normal",
         wordBreak: "break-word",
         // backgroundColor: "black",
-        textShadow: "0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px darkgreen, 0 0 20px darkgreen", // Glow effect
+        textShadow: "0 0 2px #00FF00, 0 0 4px #00FF00, 0 0 6px darkgreen, 0 0 8px darkgreen", // Glow effect
     },
     container: {
         display: "flex",
