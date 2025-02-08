@@ -5,7 +5,7 @@ from connection import db
 def seedData():
     db.session.query(Project).delete()
 
-    with open('seed_data/seedProjects.json') as f:
+    with open('server/seed_data/seedProjects.json') as f:
         projects = json.load(f)
 
     for project in projects:

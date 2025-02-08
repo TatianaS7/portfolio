@@ -1,0 +1,23 @@
+@media screen and (max-width: 1080px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeBtn {
+        padding: 0;
+        font-size: 28pt;
+    }
+    #homeBtn span {
+        font-size: 28pt;
+    }
+
+   .navLinks {
+        margin-top: 20px;
+    }
+    .navLinksBtn {
+        font-size: 12pt;
+        color: rgb(102, 102, 102);
+        font-weight: 200;
+    }
+}

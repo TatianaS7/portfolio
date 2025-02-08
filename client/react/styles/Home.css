@@ -1,0 +1,84 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  height: 55vh;
+  margin: 60px 85px 60px 60px;
+  justify-content: center;
+  gap: 5em;
+}
+.flexContainer {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  margin: 60px;
+  justify-content: space-between;
+  gap: 5px;
+}
+.hello {
+  font-weight: 300;
+  font-size: 40pt;
+  text-transform: uppercase;
+  text-align: center;
+}
+.greeting {
+  font-size: 55pt;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.greetingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 30em;
+}
+.softwareEngineer {
+  color: black;
+  text-decoration: solid underline darkgreen;
+}
+.quoteContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin: 10px 85px 10px 60px;
+}
+.quote i {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+  .mainContainer {
+    align-items: flex-start;
+  }
+  .flexContainer {
+    margin: 0;
+  }
+  .greetingContainer {
+    max-width: 30em;
+  }
+  #quote-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hello {
+    font-size: 30pt;
+  }
+  .quote i {
+    font-size: 12pt;
+  }
+  .greetingContainer {
+    max-width: 20em;
+  }
+  .main-container {
+    margin: 65px 30px 30px 30px;
+    align-items: flex-start;
+    height: 40vh;
+  }
+}
