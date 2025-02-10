@@ -1,14 +1,15 @@
 import React from "react";
 import { Fonts } from "../constants/Font";
+import '../styles/Experience.css';
 
 export default function Experience() {
   return (
     <div style={{ height: "65vh", margin: "60px" }}>
-      <h1 style={{ ...styles.flex, ...Fonts.pageHeader }}>My Experience</h1>
+      <h1 className="header" style={Fonts.pageHeader}>My Experience</h1>
 
-      <div style={styles.flex}>
-        <div style={Fonts.paragraph}>
-          <p>
+      <div className="experience-flex">
+        <div className="scrollDiv" style={Fonts.paragraph}>
+          <p className="experience-text">
             Before becoming a Software Engineer, my career began with User
             Experience Design. In 2021, I completed a 6-month course through
             eCornell, diving into UXD essentials, from ideation to prototyping.
@@ -28,26 +29,26 @@ export default function Experience() {
             motivated to learn more and contribute to meaningful projects.
           </p>
         </div>
-        <div style={styles.timeline}>
-          <h5 style={styles.company}>
-            McKinsey & Company | <span style={styles.dates}>Jan 2024 - Present</span>
+        <div className="timeline">
+          <h5 className="company">
+            McKinsey & Company | <span className="dates">Jan 2024 - Present</span>
           </h5>
           <p>Software Engineering</p>
           <hr />
 
-          <h5 style={styles.company}>
-            Pluralsight | <span style={styles.dates}>Feb 2023 - Jan 2024</span>
+          <h5 className="company">
+            Pluralsight | <span className="dates">Feb 2023 - Jan 2024</span>
           </h5>
           <p>Frontend Development</p>
           <hr />
 
-          <h5 style={styles.company}>
-            eCornell | <span style={styles.dates}>Aug 2021 - Jan 2022</span>
+          <h5 className="company">
+            eCornell | <span className="dates">Aug 2021 - Jan 2022</span>
           </h5>
           <p>User Experience Design</p>
           <hr />
 
-          <h5 style={styles.company}>Georgia State University</h5>
+          <h5 className="company">Georgia State University</h5>
           <p>Associates in Business Administration</p>
         </div>
       </div>
@@ -55,26 +56,26 @@ export default function Experience() {
   );
 }
 
-const styles = {
-  flex: {
-    display: "flex",
-    alignItems: "center",
-    marginTop: "10px",
-    justifyContent: "space-between",
-  },
-  timeline: {
-    textTransform: "uppercase",
-    borderLeft: "dashed darkgreen 1pt",
-    padding: "3em",
-    marginLeft: "1em",
-    textAlign: "center",
-  },
-  dates: {
-    fontWeight: 300,
-    fontSize: "12pt",
-  },
-  company: {
-    fontWeight: "bold",
-    fontSize: "15pt",
-  },
-};
+// const styles = {
+//   flex: {
+//     display: "flex",
+//     alignItems: "center",
+//     marginTop: "10px",
+//     justifyContent: "space-between",
+//   },
+//   timeline: {
+//     textTransform: "uppercase",
+//     borderLeft: "dashed darkgreen 1pt",
+//     padding: "3em",
+//     marginLeft: "1em",
+//     textAlign: "center",
+//   },
+//   dates: {
+//     fontWeight: 300,
+//     fontSize: "12pt",
+//   },
+//   company: {
+//     fontWeight: "bold",
+//     fontSize: "15pt",
+//   },
+// };

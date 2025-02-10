@@ -13,13 +13,14 @@
     padding: 10px;
     text-align: center;
     height: 100%;
-    border-left: 1pt dashed grey;
+    border-left: 1pt dashed #006400;
     margin-left: 1em;
 }
 .about-flex {
     display: flex;
     align-items: center;
     margin-top: 0;
+    font-size: 35pt;
 }
 .ref {
     font-weight: bold;
@@ -27,6 +28,7 @@
 }
 .scrollDiv {
     max-width: none;
+    overflow: auto;
 }
 .category {
     font-size: 18pt;
@@ -65,10 +67,7 @@
         margin-left: 0;
         border-left: none;
         margin-top: 5em;
-        border-top: 1pt dashed grey;
-    }
-    .scrollDiv {
-        overflow: auto;
+        border-top: 1pt dashed #006400;    
     }
 }
 
@@ -82,6 +81,9 @@
 @media screen and (max-width: 600px) {
     .aboutContainer {
         height: 65vh;
+    }
+    .about-flex {
+        font-size: 30pt;
     }
     .skillsSection {
         padding-top: 2em;

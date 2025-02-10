@@ -1,0 +1,80 @@
+.experience-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.experience-text {
+    max-width: 45vw;
+}
+
+.header {
+    font-size: 35pt;
+}
+
+.timeline {
+    text-transform: uppercase;
+    border-left: dashed darkgreen 1pt;
+    padding: 3em;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.dates {
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        text-align: center;
+    }
+    .experience-flex {
+        display: block;
+    }
+    .experience-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .timeline {
+        margin-left: 0;
+        border-left: none;
+        margin-top: 5em;
+        border-top: dashed darkgreen 1pt;
+    }
+    hr {
+        margin-left: 15em;
+        margin-right: 15em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .experience-text {
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .experience-text {
+        font-size: 10pt;
+    }
+    .header {
+        font-size: 30pt;
+    }
+    .company {
+        font-size: 12pt;
+    }
+    .timeline {
+        padding: 1em;
+        padding-top: 2em;
+    }
+    .dates {
+        font-size: 11pt;
+    }
+}
