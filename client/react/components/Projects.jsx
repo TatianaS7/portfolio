@@ -2,13 +2,13 @@ import React from "react";
 import { Fonts } from "../constants/Font";
 import ProjectCards from "./ProjectCards";
 
-export default function Projects({ projects }) {
+export default function Projects({ projects }) {    
     return (
     <div style={{ height: "65vh", margin: "60px" }}>
       <h1 style={{ ...styles.flex, ...Fonts.pageHeader }}>My Projects</h1>
 
       <div style={styles.container}>
-        {projects.map((project, idx) => ( 
+        {projects && projects.map((project, idx) => ( 
             <ProjectCards key={idx} project={project} /> 
         ))}
       </div>

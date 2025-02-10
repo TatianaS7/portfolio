@@ -35,14 +35,14 @@ export default function GlitchText({ text }) {
       // Rapidly update individual binary digits
       interval = setInterval(updateSingleBinaryDigit, 10);
 
-      // Switch back to main text after 2 seconds
+      // Switch back to main text after 1 second
       setTimeout(() => {
         setDisplayBinary(false);
         clearInterval(interval);
-      }, 2000);
+      }, 1000);
     };
 
-    const mainInterval = setInterval(switchToBinary, 5000);
+    const mainInterval = setInterval(switchToBinary, 4000);
 
     return () => {
       clearInterval(mainInterval);

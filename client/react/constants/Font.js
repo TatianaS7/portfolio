@@ -9,7 +9,7 @@ export const Fonts = {
     },
     paragraph: {
         marginTop: "10px",
-        maxWidth: "45em",
+        // maxWidth: "45em",
         maxHeight: "50vh",
         display: "flex",
         flexDirection: "column",
