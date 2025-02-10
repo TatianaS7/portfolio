@@ -1,0 +1,79 @@
+#card-div {
+    border: solid 2pt black;
+    width: 40em;
+    max-height: 38em;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    max-height: 25em;
+    align-items: center;
+}
+
+.project-title {
+    font-size: 17pt;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.project-description {
+    margin: 5px 0;
+    height: 4em;
+    overflow-y: auto;
+    padding: 2pt;
+    font-size: 14pt;
+}
+
+.github {
+    height: 2em;
+    width: 2em;
+    margin: 5px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow-y: auto;
+}
+
+.stack {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card-flex {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.liveBtn {
+    background-color: darkgreen;
+    border: none;
+}
+
+@media screen and (max-width: 700px) {
+    .project-title {
+        font-size: 14pt;
+    }
+    .project-description {
+        font-size: 12pt;
+    }
+    .github {
+        height: 1.5em;
+        width: 1.5em;
+    }
+    .liveBtn {
+        font-size: 10pt;
+    }
+}

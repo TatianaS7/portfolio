@@ -1,0 +1,15 @@
+.projects {
+    height: 65vh;
+    margin: 60px;
+}
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+    overflow-y: auto;
+    height: 65vh;
+    padding: 10px;
+}

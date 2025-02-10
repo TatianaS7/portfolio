@@ -15,8 +15,8 @@ export default function StackButtons({ stack, idx }) {
 
 const styles = {
     icon: {
-        height: '2em',
-        width: '2em',
+        maxHeight: '30px',
+        maxWidth: '40px',
         margin: '5px',
     },
     tech: {

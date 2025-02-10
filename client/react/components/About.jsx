@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="aboutContainer">
       <div className="aboutSection">
-        <h1 className="about-flex" style={Fonts.pageHeader }>About Me</h1>
+        <h1 className="header" style={Fonts.pageHeader }>About Me</h1>
         <div className="scrollDiv" style={Fonts.paragraph}>
           <p className="about-text">
             Creativity has always been at the heart of who I am. In high school,
