@@ -2,3 +2,14 @@
     box-sizing: border-box;
     border: 1px dotted red;
 } */
+
+.scrollDiv {
+    max-width: 50vw;
+    overflow: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .scrollDiv {
+        max-width: none;
+    }
+}

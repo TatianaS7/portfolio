@@ -1,24 +1,37 @@
+.experienceContainer {
+    height: 75vh;
+    margin: 60px;
+    display: flex;
+}
+.experienceSection {
+    flex: 2;
+    display: block;
+}
 .experience-flex {
     display: flex;
     align-items: center;
     margin-top: 10px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
-.experience-text {
-    max-width: 45vw;
-}
+/* .experience-text {
+    max-width: 60vw;
+} */
 
 .header {
     font-size: 35pt;
 }
 
 .timeline {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border-left: dashed darkgreen 1pt;
     padding: 3em;
     margin-left: 1em;
     text-align: center;
+    align-items: center;
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
 }
 
 .dates {
@@ -33,6 +46,10 @@
 
 @media screen and (max-width: 1200px) {
     .header {
+        text-align: center;
+    }
+    .experienceContainer {
+        display: block;
         text-align: center;
     }
     .experience-flex {

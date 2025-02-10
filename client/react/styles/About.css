@@ -26,10 +26,6 @@
     font-weight: bold;
     color: darkgreen;
 }
-.scrollDiv {
-    max-width: none;
-    overflow: auto;
-}
 .category {
     font-size: 18pt;
     font-weight: bold;

@@ -4,7 +4,8 @@ import '../styles/Experience.css';
 
 export default function Experience() {
   return (
-    <div style={{ height: "65vh", margin: "60px" }}>
+    <div className="experienceContainer">
+      <div className="experienceSection" >
       <h1 className="header" style={Fonts.pageHeader}>My Experience</h1>
 
       <div className="experience-flex">
@@ -29,6 +30,8 @@ export default function Experience() {
             motivated to learn more and contribute to meaningful projects.
           </p>
         </div>
+        </div>
+        </div>
         <div className="timeline">
           <h5 className="company">
             McKinsey & Company | <span className="dates">Jan 2024 - Present</span>
@@ -52,30 +55,5 @@ export default function Experience() {
           <p>Associates in Business Administration</p>
         </div>
       </div>
-    </div>
   );
 }
-
-// const styles = {
-//   flex: {
-//     display: "flex",
-//     alignItems: "center",
-//     marginTop: "10px",
-//     justifyContent: "space-between",
-//   },
-//   timeline: {
-//     textTransform: "uppercase",
-//     borderLeft: "dashed darkgreen 1pt",
-//     padding: "3em",
-//     marginLeft: "1em",
-//     textAlign: "center",
-//   },
-//   dates: {
-//     fontWeight: 300,
-//     fontSize: "12pt",
-//   },
-//   company: {
-//     fontWeight: "bold",
-//     fontSize: "15pt",
-//   },
-// };
