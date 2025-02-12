@@ -1,12 +1,18 @@
 import React from "react";
 import { Fonts } from "../constants/Font";
 import "../styles/About.css";
+import { Button, Image } from "react-bootstrap";
+import ContactForm from "./ContactForm";
+import linkedin from "../../assets/linkedin.png";
+import github from "../../assets/github.png";
 
 export default function About() {
   return (
     <div className="aboutContainer">
       <div className="aboutSection">
-        <h1 className="header" style={Fonts.pageHeader }>About Me</h1>
+        <h1 className="header" style={Fonts.pageHeader}>
+          About Me
+        </h1>
         <div className="scrollDiv" style={Fonts.paragraph}>
           <p className="about-text">
             Creativity has always been at the heart of who I am. In high school,
@@ -40,49 +46,25 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className="skillsSection">
-        <div className="columns" >
-          <div className="column">
-            <div>
-              <h5 className="category">Frontend</h5>
-              {renderSkill("React", 70)}
-              {renderSkill("Next.js", 50)}
-              {renderSkill("JavaScript", 65)}
-            </div>
-            <br />
 
-            <div>
-              <h5 className="category">Backend</h5>
-              {renderSkill("Python", 70)}
-              {renderSkill("Node.js", 55)}
-              {renderSkill("Express", 55)}
-              {renderSkill("Flask", 75)}
-            </div>
-          </div>
-
-          <div className="column">
-            <div>
-              <h5 className="category">Cloud</h5>
-              {renderSkill("Azure", 40)}
-            </div>
-
-            <div>
-              <h5 className="category">Testing</h5>
-              {renderSkill("Jest", 55)}
-              {renderSkill("Cypress", 35)}
-              {renderSkill("Pytest", 55)}
-              {renderSkill("Playwright", 30)}
-            </div>
-          </div>
+      <div className="contact-section">
+        <h1 className="contact-header">Get in touch</h1>
+        <div className="flex-links">
+          <a href="https://www.linkedin.com/in/tatianastewart/" target="_blank">
+            <Image className="link-img" src={linkedin}></Image>
+          </a>
+          <a href="/" target="_blank">
+            <Image className="link-img" src={github}></Image>
+          </a>
         </div>
+        <div className="resume">
+          <a href="/" target="_blank">
+          <Button className="resumeBtn"> Download Resume </Button>
+          </a>
+        </div>
+        {/* <hr /> */}
+        <ContactForm />
       </div>
     </div>
   );
 }
-
-const renderSkill = (name, value) => (
-  <div className="skill">
-    <p style={{ fontWeight: 500 }}>{name}</p>
-    <progress className="progress" value={value} max="100"></progress>
-  </div>
-);

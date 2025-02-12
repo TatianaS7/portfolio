@@ -1,7 +1,11 @@
 .experienceContainer {
-    height: 75vh;
+    /* height: 75vh; */
     margin: 60px;
+    /* display: flex; */
+}
+.flex-container {
     display: flex;
+    margin-bottom: 6em;
 }
 .experienceSection {
     flex: 2;
@@ -12,6 +16,16 @@
     align-items: center;
     margin-top: 10px;
     /* justify-content: space-between; */
+}
+.skillsSection {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+    /* border-left: 1pt dashed #006400; */
+    /* margin-left: 1em; */
+    padding-top: 3em;
+    /* border-top: solid darkgreen 1pt; */
 }
 
 /* .experience-text {
@@ -44,11 +58,42 @@
     font-size: 15pt;
 }
 
+.category {
+    font-size: 18pt;
+    font-weight: bold;
+}
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+}
+.progress {
+    background-color: darkgreen;
+    height: 1.5em;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    width: 35em;
+}
+
+
 @media screen and (max-width: 1200px) {
     .header {
         text-align: center;
     }
     .experienceContainer {
+        display: block;
+        text-align: center;
+    }
+    .flex-container {
         display: block;
         text-align: center;
     }
@@ -66,8 +111,13 @@
         border-top: dashed darkgreen 1pt;
     }
     hr {
-        margin-left: 15em;
-        margin-right: 15em;
+        display: none;
+    }
+    .skillsSection {
+        margin-left: 0;
+        border-left: none;
+        margin-top: 5em;
+        border-top: 1pt dashed #006400;    
     }
 }
 
@@ -78,6 +128,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    .experienceContainer {
+        margin: 60px 35px;
+    }
     .experience-text {
         font-size: 10pt;
     }
@@ -93,5 +146,23 @@
     }
     .dates {
         font-size: 11pt;
+    }
+    .skillsSection {
+        padding-top: 2em;
+    }
+    .category {
+        font-size: 15pt;
+    }
+    .columns {
+        gap: 10px;
+        height: auto;
+    }
+    .column {
+        gap: 1em;
+    }
+    .progress {
+        height: 1em;
+        border-radius: 5px;
+        width: 15em;
     }
 }

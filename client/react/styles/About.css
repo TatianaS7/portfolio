@@ -7,15 +7,6 @@
     flex: 2;
     display: block;
 }
-.skillsSection {
-    flex: 1;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    height: 100%;
-    border-left: 1pt dashed #006400;
-    margin-left: 1em;
-}
 .about-flex {
     display: flex;
     align-items: center;
@@ -26,29 +17,41 @@
     font-weight: bold;
     color: darkgreen;
 }
-.category {
-    font-size: 18pt;
-    font-weight: bold;
-}
-.columns {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2em;
-    flex-wrap: wrap;
-    height: 100%;
-    align-content: center;
-}
-.column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 2em;
-}
-.progress {
-    background-color: darkgreen;
-    height: 10px;
-    /* border: 1px solid grey; */
+.contact-section {
+    flex: 1;
     border-radius: 5px;
+    text-align: center;
+    height: 100%;
+    padding-top: 3em;
+    border: 1pt solid darkgreen;
+}
+.contact-header {
+    margin-bottom: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.flex-links {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.flex-links a {
+    color: black;
+    font-size: 15pt;
+    text-decoration: none;
+}
+.link-img {
+    height: 30px;
+}
+.resume {
+    margin-top: 1em;
+}
+.resumeBtn {
+    background-color: darkgreen;
+    border: none; 
 }
 
 @media screen and (max-width: 1200px) {
@@ -58,12 +61,6 @@
     }
     .about-flex {
         display: block;
-    }
-    .skillsSection {
-        margin-left: 0;
-        border-left: none;
-        margin-top: 5em;
-        border-top: 1pt dashed #006400;    
     }
 }
 
@@ -76,25 +73,28 @@
 
 @media screen and (max-width: 600px) {
     .aboutContainer {
-        height: 65vh;
+        height: auto;
+        margin: 60px 35px;
     }
     .about-flex {
         font-size: 30pt;
     }
-    .skillsSection {
-        padding-top: 2em;
-    }
     .about-text {
         font-size: 10pt;
     }
-    .category {
-        font-size: 15pt;
+    .contact-section {
+        margin-top: 1em;
+        padding-top: 2em;
+        margin-top: 3em;
     }
-    .columns {
-        gap: 10px;
-        height: auto;
-    }
-    .column {
-        gap: 1em;
+    .link-img {
+        height: 25px;
+    }  
+    .resumeBtn {
+        font-size: 10pt; 
+    }   
+    .aboutSection {
+        border-bottom: 1pt dashed darkgreen;
+        padding-bottom: 4em;
     }
 }

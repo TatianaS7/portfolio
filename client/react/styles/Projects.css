@@ -13,3 +13,12 @@
     height: 65vh;
     padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .projects {
+        margin: 60px 20px;
+    }
+    .projects-container {
+        height: 60vh;
+    }
+}
