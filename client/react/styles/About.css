@@ -22,9 +22,11 @@
     flex: 1;
     border-radius: 5px;
     text-align: center;
-    height: 100%;
-    padding-top: 3em;
+    height: fit-content;
+    padding-top: 2em;
+    padding-bottom: 2em;
     border: 1pt solid darkgreen;
+    align-self: center;
 }
 .contact-header {
     margin-bottom: 0;
@@ -51,8 +53,10 @@
     margin-top: 1em;
 }
 .resumeBtn {
-    background-color: darkgreen;
-    border: none; 
+    /* background-color: darkgreen; */
+    border: 1pt solid darkgreen;
+    background-color: white;
+    color: darkgreen; 
 }
 
 @media screen and (max-width: 1200px) {
@@ -102,3 +106,10 @@
         padding-bottom: 4em;
     }
 }
+
+@media screen and (max-height: 760px) {
+    .contact-section {
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
+}    

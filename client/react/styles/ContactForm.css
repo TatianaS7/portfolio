@@ -1,6 +1,6 @@
 .contact-form-container {
   max-width: 600px;
-  margin: 2em auto;
+  margin: auto;
   padding: 20px;
   border-radius: 8px;
 }
@@ -25,10 +25,11 @@
   padding: 10px;
   border-radius: 4px;
   border: 1px solid #ccc;
+  height: 2em;
 }
 
 .form-group textarea {
-  min-height: 100px;
+  min-height: 50px;
 }
 
 button {
@@ -48,5 +49,11 @@ button {
   .form-group input,
   .form-group textarea {
     padding: 2px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .form-group {
+    margin-bottom: 5px;
   }
 }

@@ -58,8 +58,8 @@ export default function About() {
           </a>
         </div>
         <div className="resume">
-          <a href="/" target="_blank">
-          <Button className="resumeBtn"> Download Resume </Button>
+          <a href="https://drive.google.com/uc?export=download&id=1cccVZ7s2DLqvP-NX_SZvtTgfh2YQHTnZ">
+          <Button className="resumeBtn" > Download Resume </Button>
           </a>
         </div>
         {/* <hr /> */}
