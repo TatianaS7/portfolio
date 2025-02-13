@@ -53,10 +53,15 @@
     margin-top: 1em;
 }
 .resumeBtn {
-    /* background-color: darkgreen; */
     border: 1pt solid darkgreen;
     background-color: white;
     color: darkgreen; 
+    text-decoration: none;
+}
+.resumeBtn:hover {
+    background-color: darkgreen;
+    color: white;
+    border: 1pt solid darkgreen;
 }
 
 @media screen and (max-width: 1200px) {
