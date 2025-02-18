@@ -53,7 +53,7 @@ export default function About() {
           <a href="https://www.linkedin.com/in/tatianastewart/" target="_blank">
             <Image className="link-img" src={linkedin}></Image>
           </a>
-          <a href="/" target="_blank">
+          <a href="https://github.com/TatianaS7" target="_blank">
             <Image className="link-img" src={github}></Image>
           </a>
         </div>
