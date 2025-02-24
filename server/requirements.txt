@@ -6,6 +6,7 @@ cffi
 charset-normalizer
 click
 cryptography
+dotenv
 Flask
 Flask-Cors
 Flask-SQLAlchemy

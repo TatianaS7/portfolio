@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import axios from "axios";
+import apiURL from "../api";
 import "../styles/ContactForm.css";
 
 export default function ContactForm() {
@@ -16,10 +18,16 @@ export default function ContactForm() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log("Form submitted:", formData);
+    try {
+      const res = await axios.post(`${apiURL}/api/email/`, formData);
+      console.log(res.data);
+      alert("Email sent successfully!");
+    } catch (error) {
+      console.error("There was an error sending the email!", error);
+      alert("Failed to send email. Please try again.");
+    }
   };
 
   return (

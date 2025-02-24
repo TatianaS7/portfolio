@@ -16,9 +16,11 @@ def create_app():
 
     # Import routes
     from routes.projects import projects
+    from routes.email import email
 
     # Register Blueprints
     app.register_blueprint(projects, url_prefix='/api/projects')
+    app.register_blueprint(email, url_prefix='/api/email')
 
     with app.app_context():
         db.drop_all()
