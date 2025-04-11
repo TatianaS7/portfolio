@@ -1,7 +1,7 @@
 #card-div {
     border: solid 2pt black;
     width: 40em;
-    max-height: 38em;
+    height: 38em;
 }
 
 .card-body {
