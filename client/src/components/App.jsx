@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
-
 import axios from "axios";
 import apiURL from "../api"
-
-// Import Components
 import Home from "./Home";
 import Navigation from "./Navigation";
 import About from "./About";
@@ -11,8 +8,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router";
 import Experience from "./Experience";
 import Projects from "./Projects";
 
-import apiURL from "../api";
-import axios from "axios";
 
 function App() {
     const [projects, setProjects] = useState([]);

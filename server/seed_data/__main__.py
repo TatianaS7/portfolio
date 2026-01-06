@@ -5,7 +5,7 @@ from connection import db
 def seedData():
     db.session.query(Project).delete()
 
-    with open('seed_data/seedProjects.json') as f:
+    with open('server/seed_data/seedProjects.json') as f:
         projects = json.load(f)
 
     for project in projects:
@@ -27,6 +27,7 @@ def seedData():
 
         new_project.technologies = technologies
         db.session.add(new_project)
+        print(f'Seeded project: {new_project.title}')
     db.session.commit()
 
     print(f'{len(projects)} projects seeded')

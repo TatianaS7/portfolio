@@ -32,7 +32,7 @@
   min-height: 50px;
 }
 
-button {
+.form-button {
   padding: 10px 20px;
   border-radius: 4px;
   border: none;

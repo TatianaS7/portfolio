@@ -3,8 +3,8 @@ import { Fonts } from "../constants/Font";
 import "../styles/About.css";
 import { Button, Image } from "react-bootstrap";
 import ContactForm from "./ContactForm";
-import linkedin from "../../assets/linkedin.png";
-import github from "../../assets/github.png";
+import linkedin from "../assets/linkedin.png";
+import github from "../assets/github.png";
 
 export default function About() {
   return (
@@ -58,8 +58,14 @@ export default function About() {
           </a>
         </div>
         <div className="resume">
-          <a href="https://drive.google.com/uc?export=download&id=1cccVZ7s2DLqvP-NX_SZvtTgfh2YQHTnZ">
-          <Button variant="success" className="resumeBtn" > Download Resume </Button>
+          <a
+            href="https://drive.google.com/uc?export=download&id=1rPWZ7q3SAWnj-q8i0Yf6Q6HS0fixFcfr"
+            target="_blank"
+          >
+            <Button variant="success" className="resumeBtn">
+              {" "}
+              Download Resume{" "}
+            </Button>
           </a>
         </div>
         {/* <hr /> */}

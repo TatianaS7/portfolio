@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   height: 55vh;
-  margin: 60px 85px 60px 60px;
+  margin: 50px 85px 30px 60px;
   justify-content: center;
   gap: 5em;
 }
@@ -16,12 +16,12 @@
 }
 .hello {
   font-weight: 300;
-  font-size: 40pt;
+  font-size: 38pt;
   text-transform: uppercase;
   text-align: center;
 }
 .greeting {
-  font-size: 55pt;
+  font-size: 50pt;
   text-transform: uppercase;
   font-weight: 800;
   text-align: center;
@@ -44,7 +44,7 @@
   align-items: center;
   justify-content: center;
   height: 10vh;
-  margin: 10px 85px 10px 60px;
+  margin: 0px 85px 10px 60px;
 }
 .quote i {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;

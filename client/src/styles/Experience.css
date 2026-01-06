@@ -39,8 +39,7 @@
 .timeline {
     /* text-transform: uppercase; */
     border-left: dashed darkgreen 1pt;
-    padding: 3em;
-    margin-left: 1em;
+    padding-left: 2em;
     text-align: center;
     align-items: center;
     flex: 1;
@@ -55,7 +54,7 @@
 
 .company {
     font-weight: bold;
-    font-size: 15pt;
+    font-size: 13pt;
 }
 
 .category {

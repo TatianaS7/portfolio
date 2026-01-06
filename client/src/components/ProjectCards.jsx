@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Card, Button } from "react-bootstrap";
 import StackButtons from "./StackButtons";
-import github from "../../assets/github.png";
+import github from "../assets/github.png";
 import "../styles/ProjectCards.css";
 
 export default function ProjectCards({ project, idx }) {

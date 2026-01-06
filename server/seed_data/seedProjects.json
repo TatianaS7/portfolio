@@ -20,7 +20,7 @@
         "description": "A cashier simulation where you have to punch in the order within 30 seconds to get a tip based on accuracy.",
         "technologies": [
             {"name": "Python", "image": "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"},
-            {"name": "Flask", "image": "https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png"},
+            {"name": "Flask", "image": "https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=000000"},
             {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"}
         ],
         "image": "https://i.imgur.com/qHjMve3.gif",
@@ -35,10 +35,10 @@
         "description": "Fullstack CRUD application that manages user password accounts, encrypts sensitive information before storing it in a database, and generates passwords for users.",
         "technologies": [
             {"name": "Python", "image": "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"},
-            {"name": "Flask", "image": "https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png"},
+            {"name": "Flask", "image": "https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=000000"},
             {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"},
             {"name": "SQLAlchemy", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SQLAlchemy.svg/220px-SQLAlchemy.svg.png"},
-            {"name": "Auth0", "image": "https://static-00.iconduck.com/assets.00/auth0-icon-1832x2048-ewzjrdwk.png"}
+            {"name": "Auth0", "image": "https://img.icons8.com/?size=100&id=wolE63GuuT9v&format=png&color=000000"}
         ],
         "image": "https://mv-open-swe-9.github.io/html-project-TatianaS7/images/password-manager-screenshot.png",
         "deployed_link": "https://passwordmanager-khal.onrender.com/",
@@ -52,11 +52,11 @@
         "description": "An image color picker and palette generator that allows users to save their palettes and colors.",
         "technologies": [
             {"name": "Python", "image": "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"},
-            {"name": "Flask", "image": "https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png"},
+            {"name": "Flask", "image": "https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=000000"},
             {"name": "TypeScript", "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"},
             {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"},
             {"name": "SQLAlchemy", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SQLAlchemy.svg/220px-SQLAlchemy.svg.png"},
-            {"name": "Auth0", "image": "https://static-00.iconduck.com/assets.00/auth0-icon-1832x2048-ewzjrdwk.png"}
+            {"name": "Auth0", "image": "https://img.icons8.com/?size=100&id=wolE63GuuT9v&format=png&color=000000"}
         ],
         "image": "https://mv-open-swe-9.github.io/html-project-TatianaS7/images/chroma-screenshot.png",
         "deployed_link": "https://chroma-client.onrender.com/",
@@ -93,16 +93,30 @@
         "updated_at": "2024-10-01T00:00:00.000Z"
     },
     {
+        "id": 7,
         "title": "Shelter Project",
         "description": "A mobile app that connects donors with local shelters, offering role-based navigation and real-time updates to support efficient resource sharing.",
         "technologies": [
             {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"},
             {"name": "Python", "image": "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"},
-            {"name": "Flask", "image": "https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png"},
+            {"name": "Flask", "image": "https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=000000"},
             {"name": "TypeScript", "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"}
         ],
         "image": "https://i.imgur.com/3HVD5UW.jpeg",
         "deployed_link": null,
         "github_link": "https://github.com/TatianaS7/shelter-project"
+    },
+    {
+        "id": 8,
+        "title": "TatiCakes Bakery",
+        "description": "Website for my personal baking business, showcasing my products and services.",
+        "technologies": [
+            {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"},
+            {"name": "Python", "image": "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"},
+            {"name": "Flask", "image": "https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=000000"}
+        ],
+        "image": "https://imgur.com/a/Yfseg2Z",
+        "deployed_link": "https://www.taticakesbakery.com",
+        "github_link": "https://github.com/TatianaS7/taticakesbakery"
     }
 ]

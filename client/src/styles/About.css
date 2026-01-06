@@ -1,8 +1,8 @@
 .aboutContainer {
     display: flex;
-    height: 75vh;
+    /* height: 75vh; */
     margin: 60px;
-    overflow: auto;
+    /* overflow: auto; */
 }
 .aboutSection {
     flex: 2;
@@ -23,8 +23,8 @@
     border-radius: 5px;
     text-align: center;
     height: fit-content;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     border: 1pt solid darkgreen;
     align-self: center;
 }
@@ -38,16 +38,15 @@
     display: flex;
     justify-content: center;
     gap: 2em;
-    margin-bottom: 1em;
     margin-top: 1em;
 }
 .flex-links a {
     color: black;
-    font-size: 15pt;
+    font-size: 10pt;
     text-decoration: none;
 }
 .link-img {
-    height: 30px;
+    height: 25px;
 }
 .resume {
     margin-top: 1em;
