@@ -70,7 +70,7 @@
         "description": "A frontend application that fetches data from the PokeAPI and displays it in a user-friendly interface.",
         "technologies": [
             {"name": "React", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"},
-            {"name": "Cypress", "image": "https://static-00.iconduck.com/assets.00/brand-cypress-icon-512x512-td81socq.png"}
+            {"name": "Cypress", "image": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/3/cypress-icon-moigrz5nimpd7rsob0bisu.png/cypress-icon-pg9bdlubveoefqouilbg.png?_a=DATAg1AAZAA0"}
         ],
         "image": "https://mv-open-swe-9.github.io/html-project-TatianaS7/images/pokeverse-api.png",
         "deployed_link": null,
